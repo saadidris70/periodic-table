@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#mainTable{
+    display: flex;
+    align-items: end;
+
+}
+#group{
+    display: flex;
+    flex-direction: column;
+    
+}
+#group #period{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin: 1px;
+    width: 120px;
+    height: 120px;
+}
+#group #period:hover{
+   cursor: grab;
+    border: groove;
+}
+#group.transition #period{
+    background: rgb(129, 129, 216);
+}
+#group.group2 #period{
+    background: rgb(179, 146, 38);
+}
+.group2 #period{
+    background: rgb(179, 146, 38);
+}
+.metal{
+    background: #268636;
+}
+.gas{
+    background: #862626;
+}
+.symbol{
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+}
